@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 00a2f08... have no words
@@ -14,6 +15,9 @@ Created on Sat May  5 10:39:37 2018
 >>>>>>> parent of 00a2f08... have no words
 =======
 >>>>>>> parent of 00a2f08... have no words
+=======
+Created on Sat May  5 10:39:37 2018
+>>>>>>> parent of 7f1f2f0... 删除了一行parsetime的注释
 from pandas import DataFrame
 from pandas import concat
 from pandas import read_csv
@@ -22,6 +26,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 from matplotlib import pyplot
 
+# date-time parsing function for loading the dataset
 def parser(x):
 	return datetime.strptime('190'+x, '%Y-%m')
 
