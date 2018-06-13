@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
 Created on Sat May  5 10:39:37 2018
-
-@author: youkechaung
-"""
 from pandas import DataFrame
 from pandas import concat
 from pandas import read_csv
